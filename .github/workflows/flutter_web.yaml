@@ -16,7 +16,7 @@ jobs:
     - name: Setup Flutter
       uses: subosito/flutter-action@v1
       with:
-        channel: 'beta'
+        channel: 'master'
         
     - name: Enable Flutter web 
       run: flutter config --enable-web

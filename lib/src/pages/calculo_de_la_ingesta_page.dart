@@ -233,6 +233,7 @@ Widget hojaDeTrabajo(BuildContext context,contenido,ancho,alto){
       child: 
       
       Scrollbar(
+        showTrackOnHover: true,
         radius: Radius.circular(20),
         thickness: 10.0,
         controller: ScrollController(initialScrollOffset: 20,keepScrollOffset: true),
